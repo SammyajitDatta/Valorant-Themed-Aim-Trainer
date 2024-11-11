@@ -2,6 +2,7 @@ import pygame
 import random
 import time
 
+# Get user input for number of targets they want to use.
 while True:
     try:
         numberOfTargets = int(input("How many targets do you want to practice with? Enter it here: "))
